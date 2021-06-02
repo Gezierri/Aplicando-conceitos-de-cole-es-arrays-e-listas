@@ -1,3 +1,5 @@
+package collections
+
 fun main() {
     var pair: Pair<String, Double> = Pair("Joao", 1000.0)
     val map1 = mapOf(pair)

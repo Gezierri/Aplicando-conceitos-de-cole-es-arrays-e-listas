@@ -1,3 +1,5 @@
+package collections
+
 fun main() {
     val joao = Funcionario("Joao", 1500.0, "CLT")
     val pedro = Funcionario("Pedro", 1400.0, "PJ")

@@ -1,3 +1,5 @@
+package collections
+
 fun main() {
     val values = intArrayOf(3, 7, 5, 9, 1)
     val nomes = arrayOf("Maria", "Pedro", "Andre")
