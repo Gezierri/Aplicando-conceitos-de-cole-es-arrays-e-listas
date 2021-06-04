@@ -13,8 +13,15 @@ fun main() {
     repository.create(pedro.nome, pedro)
     repository.create(maria.nome, maria)
 
-    println("===========================================")
+    println("===============FIND BY ID============================")
     println(repository.findById(joao.nome))
+
+    println("===============FIND ALL============================")
+    repository.findAll().forEach { println(it) }
+
+    println("===============REMOVE BY ID============================")
+    repository.remove("Joao")
+    repository.findAll().forEach { println(it) }
 
     println("===========================================")
     var funcionarios = mutableListOf(joao, maria)
@@ -33,4 +40,6 @@ fun main() {
     funcionarios.forEach {
         println(it)
     }
+
+
 }
